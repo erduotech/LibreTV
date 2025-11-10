@@ -13,9 +13,9 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'ShaBi TV',
+    name: 'ShabiTV',
     url: 'https://tv.shabi.one',
-    description: 'ShaBi TV 免费在线视频搜索与观看平台',
+    description: 'ShabiTV 免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
 };
