@@ -22,9 +22,24 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    heiliao: {
+        api: 'https://www.heiliaozyapi.com/api.php/provide/vod',
+        name: '黑料资源',
+        adult: true
+    },
+    xiangjiao: {
+        api: 'https://www.xiangjiaozyw.com/api.php/provide/vod',
+        name: '香蕉资源',
+        adult: true
+    },
+    jiuyi: {
+        api: 'https://91jpzyw.com/api.php/provide/vod/at/json',
+        name: '久一资源',
+        adult: true
+    },
     testSource: {
-        api: 'https://caiji.maotaizy.cc/api.php/provide/vod/at/josn',
-        name: '茅台TV源',
+        api: 'https://naixxyy.com/api.php/provide/vod',
+        name: '奶香资源',
         adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
