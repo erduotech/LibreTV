@@ -1,7 +1,7 @@
 const CUSTOMER_SITES = {    
   qiqi: {        
     api: 'https://www.qiqidys.com/api.php/provide/vod',        
-    name: '七七资源',    
+    name: '八八资源',    
   },
   // 新增第一个接口：新新资源
   maotai: {        
