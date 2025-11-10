@@ -1,7 +1,31 @@
-const CUSTOMER_SITES = {    
+const CUSTOMER_SITES = {  
+  douban: {        
+    api: 'https://caiji.dbzy5.com/api.php/provide/vod/at/josn',        
+    name: '豆瓣资源',    
+  },
   maotai: {        
     api: 'https://caiji.maotaizy.cc/api.php/provide/vod/at/josn',        
     name: '茅台资源',    
+  },
+  guangsu: {        
+    api: 'https://api.guangsuapi.com/api.php/provide/vod',        
+    name: '光速资源',    
+  },
+  subo: {        
+    api: 'https://subocj.com/api.php/provide/vod/at/json',        
+    name: '速播资源',    
+  },
+  hongniu: {        
+    api: 'https://www.hongniuzy3.com/api.php/provide/vod',        
+    name: '红牛资源',    
+  },
+  haohua: {        
+    api: 'https://hhzyapi.com/api.php/provide/vod/at/json',        
+    name: '豪华资源',    
+  },
+  xinlang: {        
+    api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',        
+    name: '新浪资源',    
   },
   // 新增第一个接口：新新资源
   jinying: {        
@@ -17,6 +41,11 @@ const CUSTOMER_SITES = {
   jinchan: {        
     api: 'https://zy.jinchancaiji.com/api.php/provide/vod',        
     name: '金蝉资源',    
+  },
+  // 可继续添加更多...
+  ikun: {        
+    api: 'https://ikunzy.com/api.php/provide/vod/at/json',        
+    name: 'IKUN资源',    
   }
 };
 
