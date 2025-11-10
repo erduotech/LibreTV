@@ -1,22 +1,22 @@
 const CUSTOMER_SITES = {    
-  qiqi: {        
-    api: 'https://www.qiqidys.com/api.php/provide/vod',        
-    name: '八八资源',    
-  },
-  // 新增第一个接口：新新资源
   maotai: {        
-    api: '	https://caiji.maotaizy.cc/api.php/provide/vod/at/josn',        
+    api: 'https://caiji.maotaizy.cc/api.php/provide/vod/at/josn',        
     name: '茅台资源',    
   },
+  // 新增第一个接口：新新资源
+  jinying: {        
+    api: 'https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json',        
+    name: '金鹰资源',    
+  },
   // 新增第二个接口：爱爱资源
-  heiliao: {        
-    api: 'https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list',        
-    name: '黑料资源',    
+  huya: {        
+    api: 'https://www.huyaapi.com/api.php/provide/vod/at/json',        
+    name: '虎牙资源',    
   },
   // 可继续添加更多...
-  xiangjiao: {        
-    api: 'https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list',        
-    name: '香蕉资源',    
+  jinchan: {        
+    api: 'https://zy.jinchancaiji.com/api.php/provide/vod',        
+    name: '金蝉资源',    
   }
 };
 
