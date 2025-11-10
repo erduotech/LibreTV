@@ -13,9 +13,9 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'LibreTV',
-    url: 'https://libretv.is-an.org',
-    description: '免费在线视频搜索与观看平台',
+    name: 'ShaBi One TV',
+    url: 'https://tv.shabi.one',
+    description: '傻逼TV 免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
 };
@@ -23,8 +23,8 @@ const SITE_CONFIG = {
 // API站点配置
 const API_SITES = {
     testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
+        api: '	https://caiji.maotaizy.cc/api.php/provide/vod/at/josn',
+        name: '茅台TV源',
         adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
