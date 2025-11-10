@@ -13,9 +13,9 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'ShaBi One TV',
+    name: 'ShaBi TV',
     url: 'https://tv.shabi.one',
-    description: '傻逼TV 免费在线视频搜索与观看平台',
+    description: 'ShaBi TV 免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
 };
@@ -23,7 +23,7 @@ const SITE_CONFIG = {
 // API站点配置
 const API_SITES = {
     testSource: {
-        api: '	https://caiji.maotaizy.cc/api.php/provide/vod/at/josn',
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod/at/josn',
         name: '茅台TV源',
         adult: true
     }
